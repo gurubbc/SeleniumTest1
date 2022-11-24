@@ -11,7 +11,7 @@ public class OpenGoogle {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.wikipedia.com");
 		System.out.println("Wikipedia website has been successfully opened");
-		System.out.println("Page title is "+driver.getTitle());
+		System.out.println("1. Page title is "+driver.getTitle());
 		driver.quit();
 
 	}
